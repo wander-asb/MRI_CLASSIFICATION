@@ -1,5 +1,5 @@
 # Classificação de Tumores Cerebrais em Imagens de Ressonâncias Magnéticas por Redes Neurais Convolucionais
-> As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
+As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
 (SNC) ainda não obtiveram total consenso científico sobre sua origem, mas os 
 diagnósticos responsáveis nas análises de detecção de tumores evoluem 
 gradativamente com o avanço da tecnologia na área da saúde. Por conseguinte, na 
@@ -13,6 +13,9 @@ Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Glioma
 tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
 responsável por classificar os três tipos de tumores do conjunto de dados.
 
+#Arquiteturas desenvolvidas:
+
+
 ## Os objetivos levantados na leitura e compreesão dos artigos acima (até agora) são:
 
 * Análise comparativa:
@@ -21,6 +24,6 @@ responsável por classificar os três tipos de tumores do conjunto de dados.
 ## Referências:
 
 > Os artigos propostos para o desenvolvimento dos modelos classificativos são modelados e separados por multi classes e classes binárias, são eles:
- * Multi-Classification of Brain Tumor Images Using Deep Neural Network
- * Brain Tumor Detection and Classifiaction Using CNN Algorithm and Deep Learning Techniques
- * A new deep CNN for brain tumor classification
+ * [Multi-Classification of Brain Tumor Images Using Deep Neural Network](https://ieeexplore.ieee.org/document/8723045)
+ * [Brain Tumor Detection and Classifiaction Using CNN Algorithm and Deep Learning Techniques](https://ieeexplore.ieee.org/document/9436599)
+ * [A new deep CNN for brain tumor classification](https://ieeexplore.ieee.org/document/9329328)
