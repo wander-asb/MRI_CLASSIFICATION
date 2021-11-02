@@ -13,6 +13,12 @@ Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Glioma
 tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
 responsável por classificar os três tipos de tumores do conjunto de dados.
 
+> Os artigos propostos para o desenvolvimento dos modelos classificativos são modelados e separados por multi classes e classes binárias, são eles:
+ * Multi-Classification of Brain Tumor Images Using Deep Neural Network
+ * Brain Tumor Detection and Classifiaction Using CNN Algorithm and Deep Learning Techniques
+ * A new deep CNN for brain tumor classification
+
+## Os objetivos levantados na leitura e compreesão dos artigos acima (até agora) são:
 
 * Análise comparativa:
   * A análise comparativa tem como finalidade entender o comportamento classificativo da Rede Neural Convolucional (CNN) em relação aos conjuntos de dados multi e binários.
