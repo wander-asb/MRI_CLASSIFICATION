@@ -24,8 +24,6 @@ responsável por classificar os três tipos de tumores do conjunto de dados.
   * A análise comparativa tem como finalidade entender o comportamento classificativo da Rede Neural Convolucional (CNN) em relação aos conjuntos de dados multi e binários.
 
 ## Referências:
-
-> Os artigos propostos para o desenvolvimento dos modelos classificativos são modelados e separados por multi classes e classes binárias, são eles:
  * [Multi-Classification of Brain Tumor Images Using Deep Neural Network](https://ieeexplore.ieee.org/document/8723045)
  * [Brain Tumor Detection and Classifiaction Using CNN Algorithm and Deep Learning Techniques](https://ieeexplore.ieee.org/document/9436599)
  * [A new deep CNN for brain tumor classification](https://ieeexplore.ieee.org/document/9329328)
