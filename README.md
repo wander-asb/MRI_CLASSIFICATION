@@ -1,5 +1,7 @@
 # Classificação de Tumores Cerebrais em Imagens de Ressonâncias Magnéticas por Redes Neurais Convolucionais
-As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
+
+## Problema e resolução:
+>As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
 (SNC) ainda não obtiveram total consenso científico sobre sua origem, mas os 
 diagnósticos responsáveis nas análises de detecção de tumores evoluem 
 gradativamente com o avanço da tecnologia na área da saúde. Por conseguinte, na 
