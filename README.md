@@ -15,7 +15,8 @@ Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Glioma
 tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
 responsável por classificar os três tipos de tumores do conjunto de dados.
 
-#Arquiteturas desenvolvidas:
+## Arquiteturas desenvolvidas:
+> A primeira proposta realizada pela pesquisa Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações de multi classes, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas. Logo, o modelo de Rede Neural Convolcuinal é avaliado por métricas de desempenho, que através da separação de dados de treino e teste, obteve acurácia de 97.54%, 95.81% e 96.89%, respectivamente, na classificação de meningioma, glioma e hipófise.
 
 
 ## Os objetivos levantados na leitura e compreesão dos artigos acima (até agora) são:
