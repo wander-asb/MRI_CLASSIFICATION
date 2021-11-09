@@ -20,11 +20,15 @@ responsável por classificar os três tipos de tumores do conjunto de dados.
 
 ### Multi-Classification of Brain Tumor Images Using Deep Neural Network
 
-A primeira proposta realizada pela pesquisa Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações de multi classes, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas. Logo, o modelo de Rede Neural Convolcuinal é avaliado por métricas de desempenho, que através da separação de dados de treino e teste, obteve acurácia de 97.54%, 95.81% e 96.89%, respectivamente, na classificação de meningioma, glioma e hipófise.
+A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações de multi classes, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas. Logo, o modelo de Rede Neural Convolcuinal é avaliado por métricas de desempenho, que através da separação de dados de treino e teste, obteve acurácia de 97.54%, 95.81% e 96.89%, respectivamente, na classificação de meningioma, glioma e hipófise.
+
+> Diante da modelagem da arquiteura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, porém, o número de mapas de características foram alterados, a pesquisa apresenta o uso de 64 features maps, enquanto na modelagem realizada nesse repositório utiliza-se 128 camadas que visam encontrar padrões nas fotos. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu ainda manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste, apenas o resize para 128x128. 
 
 ### A new deep CNN for brain tumor classification
 
 A proposta da pesquisa promovida pela equipe W. Ayadi et al. (2020), consiste em desenvolver uma nova técnica, capaz de possuir alto desempenho comparado aos modelos especificados no tópico “Related Work” da pesquisa. Destarte, o modelo proposto detalha a arquitetura da Rede Neural Convolucional (CNN), nas quais são compostas por dez camadas que irão possuir a funcionalidade de extrair padrões, temos a camada de max-pooling a cada duas camadas, a fim de reduzir a dimensionalidade, cada camada convolucional utiliza filtros 3x3 enquanto na camada de pooling é utilizado 2x2, uma camada de não linearidade é desenvolvida para adaptar a rede, utiliza-se uma camada de normalização para se obter otimizações e por fim uma camada totalmente conectada.
+
+> 
 
 
 ## Os objetivos levantados na leitura e compreesão dos artigos acima (até agora) são:
