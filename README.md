@@ -1,7 +1,8 @@
 # Classificação de Tumores Cerebrais em Imagens de Ressonâncias Magnéticas por Redes Neurais Convolucionais
 
-## Problema e resolução:
->As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
+## Problema e resolução
+
+> As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
 (SNC) ainda não obtiveram total consenso científico sobre sua origem, mas os 
 diagnósticos responsáveis nas análises de detecção de tumores evoluem 
 gradativamente com o avanço da tecnologia na área da saúde. Por conseguinte, na 
@@ -15,8 +16,15 @@ Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Glioma
 tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
 responsável por classificar os três tipos de tumores do conjunto de dados.
 
-## Arquiteturas desenvolvidas:
+## Arquiteturas desenvolvidas
+
+### Multi-Classification of Brain Tumor Images Using Deep Neural Network
+
 > A primeira proposta realizada pela pesquisa Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações de multi classes, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas. Logo, o modelo de Rede Neural Convolcuinal é avaliado por métricas de desempenho, que através da separação de dados de treino e teste, obteve acurácia de 97.54%, 95.81% e 96.89%, respectivamente, na classificação de meningioma, glioma e hipófise.
+
+### A new deep CNN for brain tumor classification
+
+> A proposta da pesquisa promovida pela equipe W. Ayadi et al. (2020), consiste em desenvolver uma nova técnica, capaz de possuir alto desempenho comparado aos modelos especificados no tópico “Related Work” da pesquisa. Destarte, o modelo proposto detalha a arquitetura da Rede Neural Convolucional (CNN), nas quais são compostas por dez camadas que irão possuir a funcionalidade de extrair padrões, temos a camada de max-pooling a cada duas camadas, a fim de reduzir a dimensionalidade, cada camada convolucional utiliza filtros 3x3 enquanto na camada de pooling é utilizado 2x2, uma camada de não linearidade é desenvolvida para adaptar a rede, utiliza-se uma camada de normalização para se obter otimizações e por fim uma camada totalmente conectada.
 
 
 ## Os objetivos levantados na leitura e compreesão dos artigos acima (até agora) são:
