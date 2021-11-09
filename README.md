@@ -20,7 +20,7 @@ responsável por classificar os três tipos de tumores do conjunto de dados.
 
 ### Multi-Classification of Brain Tumor Images Using Deep Neural Network
 
-A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações de multi classes, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas. Logo, o modelo de Rede Neural Convolcuinal é avaliado por métricas de desempenho, que através da separação de dados de treino e teste, obteve acurácia de 97.54%, 95.81% e 96.89%, respectivamente, na classificação de meningioma, glioma e hipófise.
+A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas.
 
 > Diante da modelagem da arquiteura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, porém, o número de mapas de características foram alterados, a pesquisa apresenta o uso de 64 features maps, enquanto na modelagem realizada nesse repositório utiliza-se 128 camadas que visam encontrar padrões nas fotos. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu ainda manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste, apenas o resize para 128x128.
 
@@ -31,10 +31,12 @@ A proposta da pesquisa promovida pela equipe W. Ayadi et al. (2020), consiste em
 > Vale salientar que, ocorreu erros durante o processo de treinamento da arquitetura promovida na pesquisa do parágrafo logo acima, não tive como rodar devido os limites concedidos pela GPU, porém, como base de direcionamento e entender o comportamento da CNN diante do objetivo que desejamos alcançar, um modelo de figura exemplo foi utilizado como molde e direcionamento na construção e treinamento da Rede Neural Convolucional. A figura apresenta uma arquiteura de CNN composta por uma camada convolucional, inicialmente com 16 mapas de características, seguida por uma função de ativação ReLU, normalização e logo após uma camada de pooling. Em diante, segue-se pela segunda camada, que comporta 64 features maps, função de ativação, normalização e pooling.
 
 
-## Os objetivos levantados na leitura e compreesão dos artigos acima (até agora) são:
+## Os objetivos:
 
 * Análise comparativa:
   * A análise comparativa tem como finalidade entender o comportamento classificativo da Rede Neural Convolucional (CNN) em relação aos conjuntos de dados multi e binários.
+
+## Resultados e discussão: 
 
 ## Referências:
  * [Multi-Classification of Brain Tumor Images Using Deep Neural Network](https://ieeexplore.ieee.org/document/8723045)
