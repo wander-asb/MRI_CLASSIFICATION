@@ -24,12 +24,6 @@ A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-C
 
 > Diante da modelagem da arquiteura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, porém, o número de mapas de características foram alterados, a pesquisa apresenta o uso de 64 features maps, enquanto na modelagem realizada nesse repositório utiliza-se 128 camadas que visam encontrar padrões nas fotos. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu ainda manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste, apenas o resize para 128x128.
 
-### A new deep CNN for brain tumor classification
-
-A proposta da pesquisa promovida pela equipe W. Ayadi et al. (2020), consiste em desenvolver uma nova técnica, capaz de possuir alto desempenho comparado aos modelos especificados no tópico “Related Work” da pesquisa. Destarte, o modelo proposto detalha a arquitetura da Rede Neural Convolucional (CNN), nas quais são compostas por dez camadas que irão possuir a funcionalidade de extrair padrões, temos a camada de max-pooling a cada duas camadas, a fim de reduzir a dimensionalidade, cada camada convolucional utiliza filtros 3x3 enquanto na camada de pooling é utilizado 2x2, uma camada de não linearidade é desenvolvida para adaptar a rede, utiliza-se uma camada de normalização para se obter otimizações e por fim uma camada totalmente conectada.
-
-> Vale salientar que, ocorreu erros durante o processo de treinamento da arquitetura promovida na pesquisa do parágrafo logo acima, não tive como rodar devido os limites concedidos pela GPU, porém, como base de direcionamento e entender o comportamento da CNN diante do objetivo que desejamos alcançar, um modelo de figura exemplo foi utilizado como molde e direcionamento na construção e treinamento da Rede Neural Convolucional. A figura apresenta uma arquiteura de CNN composta por uma camada convolucional, inicialmente com 16 mapas de características, seguida por uma função de ativação ReLU, normalização e logo após uma camada de pooling. Em diante, segue-se pela segunda camada, que comporta 64 features maps, função de ativação, normalização e pooling.
-
 
 ## Os objetivos:
 
