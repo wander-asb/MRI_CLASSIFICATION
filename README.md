@@ -20,9 +20,11 @@ responsável por classificar os três tipos de tumores do conjunto de dados.
 
 ### Multi-Classification of Brain Tumor Images Using Deep Neural Network
 
-A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas.
+> A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas.
 
-> Diante da modelagem da arquiteura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, porém, o número de mapas de características foram alterados, a pesquisa apresenta o uso de 64 features maps, enquanto na modelagem realizada nesse repositório utiliza-se 128 camadas que visam encontrar padrões nas fotos. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu ainda manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste, apenas o resize para 128x128.
+Diante da modelagem da arquiteura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, porém, o número de mapas de características são representados por 64, lote de preparação divididos em 32 (batch_size=32) e shuffle = true. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu ainda manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste (augmentation), apenas o resize para 128x128.
+
+Em relação aos dados que irão passar pelo modelo binário de classificação, um dos empasses foi a proporção de dados de tumores em contraste aos não tumores. Por motivos de análise, possivelmente iremos tratar essa proporção e diminuir o numero de dados tumorais a ponto de que esteja satisfatório para ser classificado, respectivamente, temos pouco menos de 500 dados não tumorais e mais de 1800 dados tumorais.
 
 
 ## Os objetivos:
@@ -34,4 +36,3 @@ A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-C
 
 ## Referências:
  * [Multi-Classification of Brain Tumor Images Using Deep Neural Network](https://ieeexplore.ieee.org/document/8723045)
- * [Brain Tumor Detection and Classifiaction Using CNN Algorithm and Deep Learning Techniques](https://ieeexplore.ieee.org/document/9436599)
