@@ -24,9 +24,9 @@ A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-C
 
 ## Métodos e resultados
 
-Diante da modelagem da arquiteura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, porém, o número de mapas de características são representados por 64, lote de preparação divididos em 32 (batch_size=32) e shuffle = true. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu ainda manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste (augmentation), apenas o resize para 128x128.
+Diante da modelagem da arquitetura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, o número de mapas de características são representados por 64, lote de preparação divididos em 32 (batch_size=32) e shuffle = true, tamanho de kernel´s definidos por matrizes 3x3. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste (augmentation), apenas o resize das imagens de tamanho 256x256 para 128x128.
 
-Em relação aos dados que irão passar pelo modelo binário de classificação, um dos empasses foi a proporção de dados de tumores em contraste aos não tumores. Por motivos de análise, possivelmente iremos tratar essa proporção e diminuir o numero de dados tumorais a ponto de que esteja satisfatório para ser classificado, respectivamente, temos pouco menos de 500 dados não tumorais e mais de 1800 dados tumorais.
+Em relação aos dados que irão passar pelo modelo binário de classificação, um dos empasses foi a proporção de dados de tumores em contraste aos não tumores. Por motivos de análise, poderemos tratar essa proporção e diminuir o numero de dados tumorais a ponto de que esteja satisfatório para ser classificado, respectivamente, temos pouco menos de 500 dados não tumorais e mais de 1800 dados tumorais. 
 
 
 ## Os objetivos:
