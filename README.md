@@ -16,19 +16,19 @@ Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Glioma
 tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
 responsável por classificar os três tipos de tumores do conjunto de dados.
 
-## Arquitetura desenvolvida
-
-<img src="https://github.com/wander-asb/MRI_CLASSIFICATION/blob/main/multi-classification%20architecture%20CNN.png?raw=true" width="949" height="302" />
-
 ### Multi-Classification of Brain Tumor Images Using Deep Neural Network
 
 A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas.
 
+## Arquitetura desenvolvida
+
+<img src="https://github.com/wander-asb/MRI_CLASSIFICATION/blob/main/multi-classification%20architecture%20CNN.png?raw=true" width="949" height="302" />
+
 ## Métodos e resultados
 
-Diante da modelagem da arquitetura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao parágrafo acima, o número de mapas de características são representados por 64, lote de preparação divididos em 32 (batch_size=32) e shuffle = true, tamanho de kernel´s definidos por matrizes 3x3. Diante disso, o conjunto de dados estão separados de acordo com o download fornecido pelo Kaggle, isto é, não ocorreu manipulação, aplicação de filtros ou alterações do conjunto de dados de treino e teste (augmentation), apenas o resize das imagens de tamanho 256x256 para 128x128.
+Diante da modelagem da arquitetura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao tópico acima, o número de mapas de características são representados por 64, lote de preparação divididos em 32 (batch_size=32) e shuffle = true, tamanho de kernel´s definidos por matrizes 3x3. Diante disso, o conjunto de dados estão separados ... , não houve ainda aplicações de filtros (augmentation), apenas o resize das imagens de tamanho 256x256 para 128x128.
 
-Em relação aos dados que irão passar pelo modelo binário de classificação, um dos empasses foi a proporção de dados de tumores em contraste aos não tumores. Por motivos de análise, poderemos tratar essa proporção e diminuir o numero de dados tumorais a ponto de que esteja satisfatório para ser classificado, respectivamente, temos pouco menos de 500 dados não tumorais e mais de 1800 dados tumorais. 
+Em relação aos dados que irão passar pelo modelo binário de classificação, um dos empasses foi a proporção de dados de tumores em contraste aos não tumores. Por motivos de análise, poderemos tratar essa proporção e diminuir o numero de dados tumorais a ponto de que esteja satisfatório para ser classificado, respectivamente, temos 500 dados não tumorais e mais de 1500 dados tumorais. Diante desse empasse, podemos ter um problema de aprendigem na rede neural.
 
 
 ## Os objetivos:
