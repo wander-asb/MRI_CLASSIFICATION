@@ -16,7 +16,7 @@ Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Glioma
 tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
 responsável por classificar os três tipos de tumores do conjunto de dados.
 
-## Arquiteturas desenvolvidas
+## Arquitetura desenvolvida
 
 <img src="https://github.com/wander-asb/MRI_CLASSIFICATION/blob/main/multi-classification%20architecture%20CNN.png?raw=true" width="949" height="302" />
 
