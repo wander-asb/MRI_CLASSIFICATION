@@ -21,7 +21,7 @@ responsável por classificar os três tipos de tumores do conjunto de dados.
 A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas.
 
 ## Pré-processamento
-<img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset.png" width="1000" height="500" />
+<img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset.png" width="949" height="500" />
 
 ## Arquitetura desenvolvida
 
