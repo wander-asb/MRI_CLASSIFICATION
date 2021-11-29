@@ -25,7 +25,7 @@ A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-C
 
 ## Arquitetura desenvolvida
 
-<img src="https://github.com/wander-asb/MRI_CLASSIFICATION/blob/main/multi-classification%20architecture%20CNN.png?raw=true" width="949" height="302" />
+<img src="https://github.com/wander-asb/MRI_CLASSIFICATION/blob/main/multi-classification%20architecture%20CNN.png?raw=true" width="949" height="250" />
 
 ## Métodos e resultados
 
