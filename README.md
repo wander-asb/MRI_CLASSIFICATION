@@ -25,7 +25,7 @@ A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-C
 A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnéticas, no qual separamos em conjunto de dados de treino e teste, respectivamente, 80% e 20%. Dessa forma, ao visualizar o gráfico que apresenta o número de arquivos vinculados a cada categoria, podemos observar que a categoria de não tumores é visivelmente minoritária quando comparada às demais classes existentes. Logo, a metodologia abordada no trabalho foi random undersample, que será responsável por separar as imagens de cada diretório de classe de maneira randômica, a fim de igualar as classes majoritárias de acordo com a categoria de não tumor, ou seja, utilizou-se tranferência de arquivos para uma pasta externa, que denominamos como "lixeira", de modo que independentemente se usaríamos ou não futuramente o dataset, não iríamos perder os dados, apenas guardá-las em um lugar que não chamaríamos quando for necessário utilizar o conjunto de treino e teste. Segue abaixo o antes e depois da tranferência de arquivos:
 
 <img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset.png" width="1177" height="450" />
-<img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset_apos.png" width="1177" height="390" />
+<img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset_apos.png" width="1177" height="380" />
 
 ## Arquitetura desenvolvida
 
