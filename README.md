@@ -27,6 +27,11 @@ A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnét
 <img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset.png" width="1177" height="450" />
 <img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset_apos.png" width="1177" height="380" />
 
+* Visualização da base de treino e teste
+* Balanceamento (Random Undersample & Oversampling)
+* Augmentation 
+* Visualizção de dados 
+
 ## Arquitetura desenvolvida
 
 <img src="https://github.com/wander-asb/MRI_CLASSIFICATION/blob/main/multi-classification%20architecture%20CNN.png?raw=true" width="949" height="250" />
