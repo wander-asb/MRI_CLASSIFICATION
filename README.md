@@ -22,15 +22,9 @@ A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-C
 
 ## Pré-processamento
 
-A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnéticas, no qual separamos em conjunto de dados de treino e teste, respectivamente, 80% e 20%. Dessa forma, ao visualizar o gráfico que apresenta o número de arquivos vinculados a cada categoria, podemos observar que a categoria de não tumores é visivelmente minoritária quando comparada às demais classes existentes. Logo, a metodologia abordada no trabalho foi random undersample, que será responsável por separar as imagens de cada diretório de classe de maneira randômica, a fim de igualar as classes majoritárias de acordo com a categoria de não tumor, ou seja, utilizou-se tranferência de arquivos para uma pasta externa, que denominamos como "lixeira", de modo que independentemente se usaríamos ou não futuramente o dataset, não iríamos perder os dados, apenas guardá-las em um lugar que não chamaríamos quando for necessário utilizar o conjunto de treino e teste. Segue abaixo o antes e depois da tranferência de arquivos:
+A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnéticas, no qual separamos em conjunto de dados de treino e teste, respectivamente, 80% e 20%. Entretanto, ao avaliar o conjunto formado por mais de 3.000 imagens, visualiza-se que, existe classes que estão desbalanceadas em relação com a classe de cérebros que não apresentam tumor. Logo, a metodologia abordada no trabalho foi random undersample, que será responsável por separar as imagens de cada diretório de classe de maneira randômica, a fim de igualar as classes majoritárias de acordo com a categoria de não tumor, de maneira que, em seguida, separamos os dados de treino em teste como antes citado.
 
-<img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset.png" width="1177" height="450" />
-<img src="https://raw.githubusercontent.com/wander-asb/MRI_CLASSIFICATION/main/teste_treino_dataset_apos.png" width="1177" height="380" />
-
-* Visualização da base de treino e teste
-* Balanceamento (Random Undersample & Oversampling)
-* Augmentation 
-* Visualizção de dados 
+Vale saliuentar que, utilizou-se tranferência de arquivos para uma pasta externa, que denominamos como "lixeira", de modo que independentemente se usaríamos ou não futuramente o dataset, não iríamos perder os dados, apenas guardá-las em um lugar que não chamaríamos quando for necessário utilizar o conjunto de treino e teste.
 
 ## Arquitetura desenvolvida
 
@@ -38,9 +32,7 @@ A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnét
 
 ## Métodos e resultados
 
-Diante da modelagem da arquitetura apresentada na pesquisa, não houve empasses relacionados a GPU, o modelo tem como arquitetura as mesmas características vinculadas ao tópico acima, o número de mapas de características são representados por 64, lote de preparação divididos em 32 (batch_size=32) e shuffle = true, tamanho de kernel´s definidos por matrizes 3x3. Diante disso, o conjunto de dados estão separados ... , não houve ainda aplicações de filtros (augmentation), apenas o resize das imagens de tamanho 256x256 para 128x128.
-
-Em relação aos dados que irão passar pelo modelo binário de classificação, um dos empasses foi a proporção de dados de tumores em contraste aos não tumores. Por motivos de análise, poderemos tratar essa proporção e diminuir o numero de dados tumorais a ponto de que esteja satisfatório para ser classificado, respectivamente, temos 500 dados não tumorais e mais de 1500 dados tumorais. Diante desse empasse, podemos ter um problema de aprendigem na rede neural.
+...
 
 
 ## Os objetivos:
