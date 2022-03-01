@@ -1,3 +1,5 @@
+[!MRI](http://mmmoficial.org/mo_includes/img/publicacion/milagro-de-dios-cinco-tumores-cerebrales-desaparecen-luego-de-orar-a-dios_mmmoficial_2020-03-12-16-33-31_8765.jpg)
+
 # Classificação de Tumores Cerebrais em Imagens de Ressonâncias Magnéticas por Redes Neurais Convolucionais
 
 ## Problema e resolução
