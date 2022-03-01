@@ -2,27 +2,13 @@
 
 # Classificação de Tumores Cerebrais em Imagens de Ressonâncias Magnéticas por Redes Neurais Convolucionais
 
-## Problema e resolução
+## Introdução
 
-As possíveis causas relacionadas aos tumores no Sistema Nervoso Central 
-(SNC) ainda não obtiveram total consenso científico sobre sua origem, mas os 
-diagnósticos responsáveis nas análises de detecção de tumores evoluem 
-gradativamente com o avanço da tecnologia na área da saúde. Por conseguinte, na 
-realização do diagnóstico médico, estão vinculados aos aparecimentos de sintomas 
-em um determinado intervalo de tempo, no qual está referente ao início dos sintomas 
-até o momento da realização do diagnóstico, nas quais os tumores precisam ser 
-detectados o mais rápido possível para maximizar a probabilidade de melhora do 
-paciente. Logo, esta pesquisa possui principal finalidade informar, auxiliar e propor a 
-possibilidade do diagnóstico por meio de um modelo de Redes Neurais 
-Convolucionais, cujo objetivo será validar a revelação de Meningiomas, Gliomas e 
-tumores da Glândula Pituitária por intermédio do modelo de aprendizado profundo, 
-responsável por classificar os três tipos de tumores do conjunto de dados.
+De acordo com a incidência de câncer no Brasil, disponibilizado pelo Instituto Nacional de Câncer José Alencar Gomes da Silva (2019), onze mil e cem novos casos de tumores no cérebro foram contabilizados no ano de 2020. Os tumores vinculados ao cérebro são uma das doenças relacionadas aos tipos de câncer no Sistema Nervoso Central (SNC), sua origem ou causa pode ocorrer de forma indeterminada, como também pode ser dividido em duas características conforme sua classificação ou epidemiologia. 
 
-### Multi-Classification of Brain Tumor Images Using Deep Neural Network
+As Redes Neurais constituem-se pelo desenvolvimento do processo humano de aprendizado, em que determinados parâmetros encontram-se a possibilidade de obter as interações e pensamentos que um cérebro humano pode realizar, intensificou-se então, a busca pelo ganho de modelos computacionais capazes de exercer papéis cognitivos humanos. Na realização de análises clínicas, por exemplo, as Redes Neurais Artificiais (RNA) desempenharam importante papel no diagnóstico feito pelo responsável.
 
-A proposta de pesquisa promovida pela equipe H. H. Sultan et al. (2019), Multi-Classification of Brain Tumor Images Using Deep Neural Network, aborda o conceito de classificações, no qual utilizamos específicos parâmetros para montar a arquitetura da Rede Neural Convolucional (CNN). Nesse sentido, a arquitetura do modelo de aprendizado profundo possui 16 camadas a partir da entrada, no qual passa por pré-processamento, funções de ativação, camadas de pooling e camadas totalmente conectadas.
-
-## Pré-processamento
+## Métodos e desenvolvimentos
 
 A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnéticas, no qual separamos em conjunto de dados de treino e teste, respectivamente, 80% e 20%. Entretanto, ao avaliar o conjunto formado por mais de 3.000 imagens, visualiza-se que, existe classes que estão desbalanceadas em relação com a classe de cérebros que não apresentam tumor. Logo, a metodologia abordada no trabalho foi random undersample, que será responsável por separar as imagens de cada diretório de classe de maneira randômica, a fim de igualar as classes majoritárias de acordo com a categoria de não tumor, de maneira que, em seguida, separamos os dados de treino em teste como antes citado.
 
