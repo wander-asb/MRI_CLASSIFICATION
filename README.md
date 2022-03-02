@@ -16,7 +16,7 @@ A base de dados é composta pelo total de 3.264 imagens de ressonâncias magnét
 
 ## Conclusão
 
-Com a utilização de filstros binários que visam melhorar a compreensão dos modelos na classificação de tumores cerebrais em imagens, pode-se concluir que a resposta que obtivemos na pesquisa foi o oposto das hipóteses que levantamos, de forma que, por conta das intensidades de cores ou escalas que os filtros passam, o tumor não consegue se distinguir das características naturais do cérebro humano. Logo, para os conjuntos de dados utilizados, a melhor classificação desenvolvida pertence aos cérebros sem filtros.
+Com a utilização de filtros binários que visam melhorar a compreensão dos modelos na classificação de tumores cerebrais em imagens, pode-se concluir que a resposta que obtivemos na pesquisa foi o oposto das hipóteses que levantamos, de forma que, por conta das intensidades de cores ou escalas que os filtros passam, o tumor não consegue se distinguir das características naturais do cérebro humano. Logo, para os conjuntos de dados utilizados, a melhor classificação desenvolvida pertence aos cérebros sem filtros.
 
 ## Referências:
  * [Multi-Classification of Brain Tumor Images Using Deep Neural Network](https://ieeexplore.ieee.org/document/8723045)
